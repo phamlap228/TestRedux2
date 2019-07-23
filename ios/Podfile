@@ -23,7 +23,6 @@ target 'AwesomeProject' do
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
   pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
 
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
@@ -31,7 +30,6 @@ target 'AwesomeProject' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   target 'AwesomeProjectTests' do
     inherit! :search_paths
